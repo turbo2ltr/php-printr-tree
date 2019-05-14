@@ -102,3 +102,6 @@
 
 
 	}
+	
+// usage	
+collapsePrintr(print_r($myObject,true));
