@@ -1,3 +1,4 @@
+<?php
 	function collapsePrintr($input)
 	{
 		$lines = preg_split('#\r?\n#', trim($input));
@@ -105,3 +106,5 @@
 	
 // usage	
 collapsePrintr(print_r($myObject,true));
+
+?>
